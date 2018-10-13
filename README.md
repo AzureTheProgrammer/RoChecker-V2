@@ -9,7 +9,7 @@ Credits:
 Updates:
 
 Ban filter - Finds available names, but are unfortunately banned
-Name size configuration - you can choose how long or short for the name to be!
+and Name size configuration - you can choose how long or short for the name to be!
 
 If you have any issues,. or any questions, contact Azure#0263 on Discord!
 
