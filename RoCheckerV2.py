@@ -18,12 +18,10 @@ while True:
     else:
         r2 = session.get(f'https://www.roblox.com/User.aspx?Username={name}', allow_redirects=True)
         if r2.html.search("404"):
-            print(f"{name} is available, but is banned!")
-            f = open('names.txt', 'a+')
-            f.write(name + "[BANNED]\n")
-            f.close()
-        else:
+          print(name, "[BANNED]")
+        else:  
             print(f"{name} [AVAILABLE]!")
             f = open('names.txt', 'a+')
             f.write(name + "[AVAILABLE]\n")
             f.close()
+          time.sleep(0.1)
